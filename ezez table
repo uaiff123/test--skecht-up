@@ -1,0 +1,31 @@
+@ -0,0 +1,30 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+#include <iomanip>
+
+using namespace std;
+
+string one [5] = {"p001", "น้ำดิ่ม", "10.00", "100","1000.00"};
+string two [5] = {"p002", "ขนม", "20.00", "50", "1000.00"};
+int main()
+{s
+    
+    for (int i = 1; i <= 1; i++) {
+        std::cout << "รหัสสินค้า\t\t"  <<"ชื่อสินค้า\t\t"  <<  "ราคาสินค้าต่อหน่วย\t\t" << "จำนวนสินค้า\t\t"<< "มูลค่ารวม" << std::endl;
+        std::cout << "=================================================================================================" << std::endl;
+      
+        std::cout << one[0]  <<"\t\t"<< one[1] <<"\t\t"<< one [2]  <<"\t\t\t"<< one[3]  <<"\t\t\t"<< one[4] << std::endl;
+        std::cout << two[0]  <<"\t\t" << two[1]<<"\t\t" << two [2]<<"\t\t\t"  << two[3]<<"\t\t\t"  << two[4] << std::endl;
+    }
+    cout << fixed << setprecision(2) <<one;
+    cout << fixed << setprecision(2) <<two;
+    return 0;
+}
